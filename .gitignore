@@ -5,11 +5,15 @@ __pycache__/
 *.pyd
 .env
 
-# Model & data files (too large for GitHub)
+# Model files (too large for GitHub)
 *.pt
 *.onnx
+models/
+
+# Data files
 data/videos/
-outputs/
+data/output/
+data/images/
 
 # Virtual environment
 venv/
@@ -21,3 +25,7 @@ venv/
 # IDE
 .vscode/
 .idea/
+
+# OS
+.DS_Store
+Thumbs.db
