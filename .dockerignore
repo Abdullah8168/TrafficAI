@@ -1,0 +1,8 @@
+venv/
+data/videos/
+data/output/
+__pycache__/
+*.pyc
+.git/
+notebooks/
+*.pt

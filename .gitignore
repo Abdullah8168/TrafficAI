@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+
+# Model & data files (too large for GitHub)
+*.pt
+*.onnx
+data/videos/
+outputs/
+
+# Virtual environment
+venv/
+.venv/
+
+# Docker
+*.tar
+
+# IDE
+.vscode/
+.idea/
